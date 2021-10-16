@@ -17,7 +17,7 @@ This project helped me gain experience with designing and developing a full stac
 To tinker with the code and start your own localhost server, simply clone repository and then you need to set a default.json file under the config folder to set up the config variables as shown below
 ```json
 {
-  "mongoURI": "<your_mongoDB_Atlas_uri_with_credentials>",
+  "mongoURI": "<your_mongodb_uri>",
   "jwtSecret": "<yoursecret>",
   "githubToken": "<yoursecrectaccesstoken>"
 }
